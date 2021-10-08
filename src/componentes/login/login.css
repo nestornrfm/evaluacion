@@ -1,0 +1,52 @@
+html,
+
+body {
+  height: 100%;
+  
+  /*
+  /*display: flex; /*Agregador 1*/
+  /*align-items: center;/*Agregador 1*/
+  /*justify-content: center;/*Agregador 1*/
+  /*min-height: 100vh;/*Agregador 1*/
+}
+
+body {
+  text-align: center!important; /*AGREGUE ESTO, que centra los ogos, letras etc.*/
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  justify-content: center; /*AGREGUE ESTO, que centra todo el contenido en el medio*/
+  /*justify-content: center; 
+  /*min-height: 100vh;*/
+  /*text-align:"text-center";/**/
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 330px;/*Colocamos 330px, en vez de auto*/
+  
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
